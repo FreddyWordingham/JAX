@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "jax"
+version = "0.0.0"
+description = "Testing JAX"
+authors = ["FreddyWordingham <freddy@digilab.co.uk>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+numpy = "^1.24.2"
+# jax = [ Currently broken with Poetry.
+#     {extras = ["cpu"], version = "0.4.8", platform="darwin", source="pypi"},
+#     {extras = ["cuda"], version = "0.4.8", platform="linux"}
+# ]
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
